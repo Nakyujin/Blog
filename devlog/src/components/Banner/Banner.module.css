@@ -1,0 +1,26 @@
+@import "../vars.css";
+
+.bannerImage{
+    background-image:url(./bannerImage.png);
+    background-size: center;
+    height: 250px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bannerImage h1{
+    font-size: 70px;
+    color: white;
+    position: relative;
+    bottom: -150px;
+    padding-left: 1.5%;
+    margin: 0px;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    transform: scaleY(1.1);
+
+}
+
+

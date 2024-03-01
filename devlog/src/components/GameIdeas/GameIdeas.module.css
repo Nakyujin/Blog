@@ -1,0 +1,11 @@
+@import "../vars.css";
+
+.postnotif{
+    padding: 5%;
+    font-size: 20px;
+}
+
+.backlink{
+    color: blue;
+    text-decoration: none;
+}

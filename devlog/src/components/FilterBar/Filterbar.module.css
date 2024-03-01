@@ -1,0 +1,48 @@
+@import "../vars.css";
+
+.filterbar{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    max-height: 20px;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+.dropdownmenuclosed{
+    position: fixed;
+    top: 380px;
+    background-color: rgb(106, 39, 39);
+    margin-top: 0px;
+    padding: 20px;
+    row-gap: 10px;
+    opacity: 0;
+    visibility: none;
+    pointer-events: none;
+
+
+}
+.dropdownmenu{
+   position: absolute;
+    top: 380px;
+    background-color: rgb(233, 233, 233);
+    margin-top: 0px;
+    padding: 20px;
+    row-gap: 10px;
+}
+
+.filterbartitle{
+    font-size: 17px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+.filterbaritems{
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    padding: 0px;
+    gap: 10%;
+}

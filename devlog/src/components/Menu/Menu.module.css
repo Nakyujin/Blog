@@ -1,0 +1,35 @@
+@import "../vars.css";
+
+.postscontainer{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.dateandtags{
+    display: flex;
+    gap: 2%;
+    margin-top: 1%;
+    margin-bottom:1%;
+    text-transform: uppercase;
+    transform: scaleY(1.1);
+    font-weight: bold;
+    
+}
+
+.posttitle {
+    margin-top: 0%;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+
+.readmore{
+    margin-bottom: 2%
+}
+.readmoretext{
+    color: rgb(37, 101, 202);
+
+}

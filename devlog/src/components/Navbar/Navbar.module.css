@@ -1,0 +1,30 @@
+@import "../vars.css";
+
+.navbar{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    font-size: 20px;
+    padding: 20px;
+    list-style: none;
+    padding-left: 5%;
+    padding-right:5%
+}
+    
+.navbarroot{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(7, 0, 31, 0.959);
+}
+
+.navbarItem{
+    text-decoration: none;
+    color: rgb(169, 166, 166);
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    transform: scaleY(1.1);
+    font-weight: bold;
+    
+
+}
